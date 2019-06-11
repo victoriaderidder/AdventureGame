@@ -16,6 +16,8 @@ void Snakes::lookAround() {
     std::cout << "You take a step forward and freeze." << std::endl;
     std::cout << "You’re face to face with a large python, and he definitely sees you too." << std::endl;
     std::cout << "Why'd it have to be snakes?" << std::endl;
+    std::cout << "There's a river to your left and forest on all other sides, "
+    "but is that really important right now?\n" << std::endl;
     std::cout << "1. Fight!" << std::endl;
     std::cout << "2. Run!" << std::endl;
     int choice = intCheck();

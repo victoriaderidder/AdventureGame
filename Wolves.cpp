@@ -15,6 +15,8 @@
 void Wolves::lookAround() {
     std::cout << "You’ve been trying to ignore the howling in the distance for some time now." << std::endl;
     std::cout << "But that was before you found yourself surrounded by glowing yellow eyes." << std::endl;
+    std::cout << "You are completely surrounded by forest, but is that really important "
+    "right now?" << std::endl;
     std::cout << "1. Fight for your life" << std::endl;
     std::cout << "2. Try to run" << std::endl;
     std::cout << "3. Give up and die" << std::endl;

@@ -17,6 +17,7 @@
  ******************************************************************************/
 void Start::lookAround() {
     std::cout << "Wait...aren't you right back where you started?" << std::endl;
+    std::cout << "There's a river to your left and forest on all other sides." << std::endl;
 }
 
 void Start::interact() {
@@ -29,6 +30,7 @@ void Start::interact() {
  ** Description: Functions for the first Forest style space.
  ******************************************************************************/
 void Forest1::lookAround() {
+    std::cout << "There's a river to your left and forest on all other sides." << std::endl;
     std::cout << "You see a lot of trees, and a large branch lying on the ground." << std::endl;
     std::cout << "That could be useful later." << std::endl;
 }
@@ -47,6 +49,7 @@ void Forest1::interact() {
  ** Description: Functions for the second Forest style space.
  ******************************************************************************/
 void Forest2::lookAround() {
+    std::cout << "You are completely surrounded by forest." << std::endl;
     std::cout << "You see more trees." << std::endl;
     std::cout << "You look up to try to get your bearings, but the sky is only "
     "barely visible through the leaves." << std::endl;
@@ -75,6 +78,7 @@ void Forest2::interact() {
  ** Description: Functions for the third Forest style space.
  ******************************************************************************/
 void Forest3::lookAround() {
+    std::cout << "You are completely surrounded by forest." << std::endl;
     std::cout << "Mushrooms! You see mushrooms! You are so hungry." << std::endl;
 }
 
@@ -113,6 +117,7 @@ void Forest3::interact() {
  ******************************************************************************/
 void Forest4::lookAround() {
     std::cout << "Oh boy, more trees." << std::endl;
+    std::cout << "There's a river to your left and forest on all other sides." << std::endl;
 }
 void Forest4::interact() {
     // pick up a potentially useful coin (snakes)
@@ -136,6 +141,7 @@ void Forest4::interact() {
  ******************************************************************************/
 void Forest5::lookAround() {
     std::cout << "Trees. Trees. Trees." << std::endl;
+    std::cout << "You are completely surrounded by forest." << std::endl;
 }
 
 void Forest5::interact() {
@@ -152,6 +158,7 @@ void Forest5::interact() {
  ** Description: Functions for the sixth Forest style space.
  ******************************************************************************/
 void Forest6::lookAround() {
+    std::cout << "There's a river to your left and forest on all other sides." << std::endl;
     std::cout << "You really wish you were at home playing video games." << std::endl;
     std::cout << "Why did you agree to go camping anyway?" << std::endl;
 }
@@ -165,6 +172,7 @@ void Forest6::interact() {
  ** Description: Functions for the seventh Forest style space.
  ******************************************************************************/
 void Forest7::lookAround() {
+    std::cout << "You are completely surrounded by forest." << std::endl;
     std::cout << "You try to look around, but it’s getting really dark." << std::endl;
     std::cout << "You start brushing against trees to guide you." << std::endl;
 }
@@ -178,6 +186,7 @@ void Forest7::interact() {
  ** Description: Functions for the eighth Forest style space.
  ******************************************************************************/
 void Forest8::lookAround() {
+    std::cout << "You are completely surrounded by forest." << std::endl;
     std::cout << "You stumble into a small empty campsite." << std::endl;
     std::cout << "There’s smoke coming from the fire pit, "
     "indicating someone was here recently." << std::endl;
@@ -193,6 +202,7 @@ void Forest8::interact() {
  ** Description: Functions for the ninth Forest style space.
  ******************************************************************************/
 void Forest9::lookAround() {
+    std::cout << "You are completely surrounded by forest." << std::endl;
     std::cout << "You see a scrap of fabric tied to a tree just ahead." << std::endl;
     std::cout << "You realize you recognize it!" << std::endl;
     std::cout << "One of your friends put it there on your way into the forest." << std::endl;
@@ -207,6 +217,7 @@ void Forest9::interact() {
  ** Description: Functions for the tenth Forest style space.
  ******************************************************************************/
 void Forest10::lookAround() {
+    std::cout << "You are completely surrounded by forest." << std::endl;
     std::cout << "You hear howling in the distance." << std::endl;
 }
 
@@ -227,6 +238,7 @@ void Forest10::interact() {
  ******************************************************************************/
 void Forest11::lookAround() {
     std::cout << "Trees. Trees. Trees." << std::endl;
+    std::cout << "You are completely surrounded by forest." << std::endl;
 }
 
 void Forest11::interact() {
